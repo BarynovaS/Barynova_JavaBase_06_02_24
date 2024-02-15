@@ -1,5 +1,6 @@
 *.iml
 /.idea
+*.mp3
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
