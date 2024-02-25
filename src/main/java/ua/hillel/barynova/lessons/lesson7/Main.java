@@ -2,6 +2,8 @@ package ua.hillel.barynova.lessons.lesson7;
 
 import java.util.Scanner;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scan2 = new Scanner(System.in);
@@ -21,7 +23,4 @@ public class Main {
         System.out.println("Кількість спроб: " + TrysCount);
     }
 }
-
-
-
 
