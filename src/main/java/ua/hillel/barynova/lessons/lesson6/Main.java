@@ -20,66 +20,88 @@ public class Main {
 
         if (scan.hasNextInt()) {
             u1 = scan.nextInt();
-            System.out.println("Player1:" + " " + u1);
+            System.out.println("User1:" + u1);
 
+        if (scan.hasNextInt()) {
             u2 = scan.nextInt();
-            System.out.println("Player2:" + " " + u2);
+            System.out.println("User2:" + u2);
 
+        if (scan.hasNextInt()) {
             u3 = scan.nextInt();
-            System.out.println("Player3:" + " " + u3);
+            System.out.println("User3:" + u3);
 
+        if (scan.hasNextInt()) {
             u4 = scan.nextInt();
-            System.out.println("Player4:" + " " + u4);
+            System.out.println("User4:" + u4);
 
+        if (scan.hasNextInt()) {
             u5 = scan.nextInt();
-            System.out.println("Player5:" + " " + u5);
-        } else {
-            System.out.println("Wrong data. Restart app");
-            System.exit(0);
+            System.out.println("User5:" + u5);
+
+
+        int u6 = 40;
+        int u7 = 4;
+        int u8 = 21;
+        int u9 = 2;
+        int u10 = 16;
+
+        System.out.println("Please enter a team name 2");
+        String user2 = scan.next();
+        System.out.println("Name team2 :" + user2);
+
+        System.out.println("Points team 2 :");
+
+
+        if (scan.hasNextInt()) {
+            u6 = scan.nextInt();
+            System.out.println("User6 :" + u6);
+
+        if (scan.hasNextInt()) {
+            u7 = scan.nextInt();
+            System.out.println("User7 :" + u7);
+
+        if (scan.hasNextInt()) {
+            u8 = scan.nextInt();
+            System.out.println("User8 :" + u8);
+
+        if (scan.hasNextInt()) {
+            u9 = scan.nextInt();
+            System.out.println("User9 :" + u9);
+
+        if (scan.hasNextInt()) {
+            u10 = scan.nextInt();
+            System.out.println("User10 :" + u10);
+
+            // среднее число 1: 26
+            // среднее число 2: 17
+
+            int poi1 = 26;
+            int poi2 = 17;
+            System.out.println("Winner team:"+user1+'\n'+"Points scored"+" "+poi1);
+            char star ='\u2606';
+            System.out.println(star +"CONGRATULATIONS"+star);
 
 
 
 
 
+
+
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+                }
             }
-
-
-//        int u2 = scan.nextInt();
-//        System.out.println("User2:"+" "+p2);
-//        int u3 = scan.nextInt();
-//        System.out.println("User3:"+" "+p3);
-//        int u4 = scan.nextInt();
-//        System.out.println("User4:"+" "+p4);
-//        int u5 = scan.nextInt();
-//        System.out.println("User5:"+" "+p5);
-//        String clean = scan.nextLine();
-//        System.out.println("Total points:");
-//        int total1 = scan.nextInt();
-//        System.out.println("POINTS:"+total1);
-
-
-//
-//            if (scan.hasNext())
-//                u1 = scan.nextInt();
-//            else
-//                System.out.println("Wrong data. Restart app");
-//        System.exit(0);
-
-//        System.out.println();
-//
-//        Scanner scan2 = new Scanner(System.in);
-//        System.out.println("Please enter a team name 2");
-//        String user2 = scan.next();
-//        System.out.println("Name team2 :" + user2);
-//
-//        int p6 = 8;
-//        int p7 = 12;
-//        int p8 = 29;
-//        int p9 = 13;
-//        int p10 = 0;
-
-
         }
 
-
     }
+
+
+}
