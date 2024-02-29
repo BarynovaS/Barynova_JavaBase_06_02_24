@@ -26,6 +26,7 @@ public class Main {
             counter++;
             System.out.println( counter + ") " + count);
             count++;}
+
     }
     private static boolean containsFourOrNine(int number) {
         while (number > 0) {
