@@ -74,11 +74,17 @@ public class Main {
 
             // среднее число 1: 26
             // среднее число 2: 17
+             int po1 = ((u1 + u2 + u3 + u4 + u5) / 5);
+             int po2 = ((u6 + u7 + u8 + u9 + u10) / 5);
+            System.out.println( po1);
+            System.out.println( po2);
 
-            int poi1 = 26;
-            int poi2 = 17;
-            System.out.println("Winner team:"+user1+'\n'+"Points scored"+" "+poi1);
-            char star ='\u2606';
+
+
+
+
+            System.out.println();
+            char star ='☆';
             System.out.println(star +"CONGRATULATIONS"+star);
 
 
