@@ -43,7 +43,7 @@ public class Main {
             TeamOne += array[i];
 
         }
-        System.out.println("Sum TeamOne" + TeamOne / 5.0);
+        System.out.println("Sum TeamOne: " + TeamOne / 5.0);
 
         System.out.println();
 
@@ -52,7 +52,7 @@ public class Main {
             TeamTwo += array1[j];
 
         }
-        System.out.println("Sum TeamTwo" + TeamTwo / 5.0);
+        System.out.println("Sum TeamTwo: " + TeamTwo / 5.0);
     }
 }
 
