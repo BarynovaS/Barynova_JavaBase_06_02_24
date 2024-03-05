@@ -21,7 +21,7 @@ public class Main {
 
         int[] array1 = new int[25];
         for (int j = 0; j < array1.length; j++) {
-            int random = (int) ((Math.random() * 19) + 22);
+            int random = (int) ((Math.random() * 19) + 21);
             array1[j] = random;
         }
         System.out.println();
@@ -43,7 +43,7 @@ public class Main {
             TeamOne += array[i];
 
         }
-        System.out.println("Sum TeamOne: " + TeamOne / 5.0);
+        System.out.println("Sum TeamOne: " + TeamOne / 25.0);
 
         System.out.println();
 
@@ -52,11 +52,9 @@ public class Main {
             TeamTwo += array1[j];
 
         }
-        System.out.println("Sum TeamTwo: " + TeamTwo / 5.0);
+        System.out.println("Sum TeamTwo: " + TeamTwo / 25.0);
     }
 }
-
-
 
 
 
