@@ -26,8 +26,6 @@ public class Main {
             System.out.println("Не вірно введені данні. ERROR");
             System.exit(0);
         }
-
-
         // Генерація матриці M x N з випадковими значеннями
         int[][] matrix = generateRandomMatrix(M, N);
 
