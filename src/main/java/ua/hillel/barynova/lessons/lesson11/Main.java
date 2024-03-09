@@ -17,9 +17,6 @@ public class Main {
             System.out.println("Не вірно введене значеня. ERROR");
             System.exit(0);
         }
-
-
-
         System.out.print("Введіть кількість стовпців (N): ");
         int N = 0;
         if (scanner.hasNextInt()) {
@@ -67,10 +64,8 @@ public class Main {
                 transposedMatrix[i][j] = matrix[j][i];
             }
         }
-
         return transposedMatrix;
     }
-
     // Метод для виведення матриці на екран
     private static void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
