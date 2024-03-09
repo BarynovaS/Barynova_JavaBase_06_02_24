@@ -8,11 +8,28 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Введення розмірів матриці
-
         System.out.print("Введіть кількість рядків (M): ");
-        int M = scanner.nextInt();
+        int M = 0;
+        if (scanner.hasNextInt()) {
+            M = scanner.nextInt();
+            System.out.println(M);
+        }else {
+            System.out.println("Не вірно введене значеня. ERROR");
+            System.exit(0);
+        }
+
+
+
         System.out.print("Введіть кількість стовпців (N): ");
-        int N = scanner.nextInt();
+        int N = 0;
+        if (scanner.hasNextInt()) {
+            N = scanner.nextInt();
+            System.out.println(N);
+        } else {
+            System.out.println("Не вірно введені данні. ERROR");
+            System.exit(0);
+        }
+
 
         // Генерація матриці M x N з випадковими значеннями
         int[][] matrix = generateRandomMatrix(M, N);
@@ -37,7 +54,6 @@ public class Main {
                 matrix[i][j] = random.nextInt(100); // Генеруємо випадкове число від 0 до 99
             }
         }
-
         return matrix;
     }
     // Метод для транспонування матриці
@@ -51,8 +67,10 @@ public class Main {
                 transposedMatrix[i][j] = matrix[j][i];
             }
         }
+
         return transposedMatrix;
     }
+
     // Метод для виведення матриці на екран
     private static void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
@@ -63,3 +81,5 @@ public class Main {
         }
     }
 }
+
+

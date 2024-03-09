@@ -6,15 +6,16 @@ public class Main {
 //        for (int i = 0; ; i++) {
 //            if (i / 10 == 4 || i % 10 == 4 || i / 100 == 40 || i % 100 == 40 || i / 10 == 9 || i % 10 == 9 ||
 //            i / 100 == 90 || i % 100 == 90){
+//                continue;
 //
-//                        continue;
 //                    }
 //                    if (counter == 100) {
 //                        continue;
 //                    }
+//                    }
 //                    counter++;
 //
-//                    System.out.println(counter + ") " + i );
+//                   System.out.println(counter + ") " + i );
 
         int counter = 0;
         int count = 0;
